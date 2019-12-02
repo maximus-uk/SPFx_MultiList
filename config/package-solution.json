@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "test metrotiles",
+    "id": "8c4b18e6-b0a2-41c9-bf83-4551d6f44824",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "features": [{
+      "title": "test metrotiles",
+      "description": "test app to create list for use within the app",
+      "id": "523fe887-ced5-4036-b564-8dad5c6c6e25",
+      "version": "1.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml"
+        ],
+        "elementFiles":[
+          "schemaOne.xml",
+          "schemaTwo.xml"
+        ]
+      }
+    }]    
+  },
+  "paths": {
+    "zippedPackage": "solution/test-metrotiles-webpart.sppkg"
+  }
+}
